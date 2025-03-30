@@ -1,5 +1,5 @@
 # **Zynetic Assignment**- Kotlin Multiplatform Project 🛍️
-<img src="https://github.com/user-attachments/assets/1cff8dae-e63b-4e46-b8f5-5ca12e5afbc8" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/1cff8dae-e63b-4e46-b8f5-5ca12e5afbc8" width="100" height="100"><br>
 A cross-platform product catalog application built with Kotlin Multiplatform Mobile (KMM), showcasing shared business logic between platforms. The app demonstrates modern architecture patterns and efficient API integration using DummyJSON API.
 
 ## Screenshots 📱
