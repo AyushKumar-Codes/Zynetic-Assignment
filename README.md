@@ -60,6 +60,7 @@ MyKMMProject/
 │           ├── AndroidManifest.xml
 │           └── kotlin/org/zynetic/project/
 │               └── MainActivity.kt
+│               └── NetworkUtils.kt       
 └── shared/
     └── src/
         └── commonMain/kotlin/org/zynetic/project/
@@ -116,7 +117,7 @@ The project follows **MVVM architecture** with **Clean Code** principles:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/zynetic-assignment.git
+git clone https://github.com/AyushKumar-Codes/Zynetic-Assignment.git
 cd zynetic-assignment
 ```
 
