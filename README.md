@@ -106,26 +106,51 @@ The project follows **MVVM architecture** with **Clean Code** principles:
 - Manages error states efficiently.
 
 ---
+## 🚀 Setup and Running the Project
 
-## 🚀 Setup Requirements
+### Prerequisites
+- Android Studio Arctic Fox or later
+- Kotlin Multiplatform Mobile plugin
+- JDK 11 or later
+- Android SDK 21 or later
 
-- **Android Studio Arctic Fox or later**
-- **Kotlin Multiplatform Mobile plugin**
-- **JDK 11 or later**
-- **Android SDK 21 or later**
-
----
-
-## 🔐 Required Permissions
-
-Add the following permissions to your `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/yourusername/zynetic-assignment.git
+cd zynetic-assignment
 ```
 
----
+### Step 2: Open in Android Studio
+1. Launch Android Studio.
+2. Select **"Open an existing project"**.
+3. Navigate to the cloned repository and click **"Open"**.
+
+### Step 3: Configure the Project
+1. Wait for **Gradle sync** to complete.
+2. Ensure all dependencies are downloaded.
+3. Verify **SDK location** in `local.properties`.
+
+### Step 4: Build the Project
+```bash
+./gradlew build
+```
+
+### Step 5: Run the Application
+1. Select an Android device/emulator.
+2. Click the **"Run"** button (▶️) or press **Shift + F10**.
+3. Wait for the app to install and launch.
+
+### Troubleshooting
+#### If **Gradle sync fails**:
+- Go to **File -> Invalidate Caches / Restart**.
+- Verify your **internet connection**.
+- Update **Gradle version** if needed.
+
+#### If **build fails**:
+- Check **SDK installation**.
+- Verify **JDK version**.
+- Clean and rebuild the project (`Build -> Clean Project` then `Build -> Rebuild Project`).
+
 
 ## 🔄 Future Improvements
 
